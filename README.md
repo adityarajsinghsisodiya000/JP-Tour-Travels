@@ -2,7 +2,7 @@
 
 A modern **travel booking & tourism platform** built for Indian travel agencies. Curated tour packages, destination guides, vehicle rentals, photo gallery, travel blog and customer reviews â€” all in one fast Next.js application with a full admin CMS.
 
-> âœ¨ Live demo / production deployment available â€” contact the maintainer for a demo link.
+> âœ¨ **Live demo:** [https://baneshwari.gt.tc/](https://baneshwari.gt.tc/)
 
 ---
 
