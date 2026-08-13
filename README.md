@@ -1,31 +1,31 @@
-# ðŸŒ JP Tour & Travels
+# 🌍 JP Tour & Travels
 
-A modern **travel booking & tourism platform** built for Indian travel agencies. Curated tour packages, destination guides, vehicle rentals, photo gallery, travel blog and customer reviews â€” all in one fast Next.js application with a full admin CMS.
+A modern **travel booking & tourism platform** built for Indian travel agencies. Curated tour packages, destination guides, vehicle rentals, photo gallery, travel blog and customer reviews — all in one fast Next.js application with a full admin CMS.
 
-> âœ¨ **Live demo:** [https://baneshwari.gt.tc/](https://baneshwari.gt.tc/)
+> ✨ **Live demo:** [https://baneshwari.gt.tc/](https://baneshwari.gt.tc/)
 
 ---
 
-## âœ¨ Features
+## ✨ Features
 
 ### Public website
-- ðŸ  **Home page** â€” hero, stats, package showcase, gallery preview, review carousel
-- ðŸŽ’ **Tour Packages** â€” searchable & filterable list (duration, price) with rich detail pages
-- ðŸ—ºï¸ **Destinations** â€” curated destination guides with detail pages
-- ðŸš— **Vehicle Fleet** â€” per-km pricing and WhatsApp-first booking flow
-- ðŸ–¼ï¸ **Gallery** â€” category-filtered photo gallery (Cloudinary)
-- ðŸ“ **Travel Blog** â€” articles with detail pages
-- â­ **Reviews** â€” rating summary & testimonials
-- ðŸ“ž **Contact & FAQ** â€” validated contact form + WhatsApp deep links, FAQ accordion
-- ðŸŒ“ **Dark mode** with page transitions & GSAP animations
+- 🏠 **Home page** — hero, stats, package showcase, gallery preview, review carousel
+- 🎒 **Tour Packages** — searchable & filterable list (duration, price) with rich detail pages
+- 🗺️ **Destinations** — curated destination guides with detail pages
+- 🚗 **Vehicle Fleet** — per-km pricing and WhatsApp-first booking flow
+- 🖼️ **Gallery** — category-filtered photo gallery (Cloudinary)
+- 📝 **Travel Blog** — articles with detail pages
+- ⭐ **Reviews** — rating summary & testimonials
+- 📞 **Contact & FAQ** — validated contact form + WhatsApp deep links, FAQ accordion
+- 🌓 **Dark mode** with page transitions & GSAP animations
 
 ### Admin CMS (`/admin`)
-- ðŸ” Supabase auth with middleware-protected routes
-- ðŸ“Š Dashboard with stats & data tables
-- âœï¸ Packages & Destinations CRUD
-- ðŸ–¼ï¸ Media library with drag-drop uploader
-- ðŸ  Homepage CMS & SEO editor
-- âš™ï¸ Site settings (general / WhatsApp / social)
+- 🔐 Supabase auth with middleware-protected routes
+- 📊 Dashboard with stats & data tables
+- ✏️ Packages & Destinations CRUD
+- 🖼️ Media library with drag-drop uploader
+- 🏠 Homepage CMS & SEO editor
+- ⚙️ Site settings (general / WhatsApp / social)
 
 ### Backend & APIs
 - REST API routes for **contact, destinations, gallery, packages, vehicles** with zod validation
@@ -35,19 +35,19 @@ A modern **travel booking & tourism platform** built for Indian travel agencies.
 
 ---
 
-## ðŸ› ï¸ Tech Stack
+## 🛠️ Tech Stack
 
 | Layer | Tech |
 |---|---|
-| Frontend | Next.js 16 Â· React 19 Â· TypeScript 5 Â· Tailwind CSS 4 Â· shadcn/ui |
-| Backend | Next.js API routes Â· Supabase (Postgres + Auth + Storage) |
+| Frontend | Next.js 16 · React 19 · TypeScript 5 · Tailwind CSS 4 · shadcn/ui |
+| Backend | Next.js API routes · Supabase (Postgres + Auth + Storage) |
 | Media | Cloudinary (image uploads & transformations) |
-| UI/UX | framer-motion Â· GSAP Â· lucide-react Â· next-themes Â· sonner |
+| UI/UX | framer-motion · GSAP · lucide-react · next-themes · sonner |
 | Validation | zod 4 |
 
 ---
 
-## ðŸš€ Getting Started
+## 🚀 Getting Started
 
 ```bash
 # 1. Install dependencies
@@ -68,32 +68,32 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ---
 
-## ðŸ“ Project Structure
+## 📁 Project Structure
 
 ```
 src/
-â”œâ”€â”€ app/
-â”‚   â”œâ”€â”€ (main)/            # Public site (home, packages, destinations, blog, ...)
-â”‚   â”œâ”€â”€ (admin)/           # Admin CMS (/admin: dashboard, CRUD, media, SEO, settings)
-â”‚   â””â”€â”€ api/               # REST API routes
-â”œâ”€â”€ components/
-â”‚   â”œâ”€â”€ ui/                # Reusable UI (shadcn)
-â”‚   â”œâ”€â”€ shared/            # Navbar, footer, WhatsApp button, breadcrumbs
-â”‚   â”œâ”€â”€ home/ packages/ destinations/ gallery/ blog/ reviews/ admin/
-â”œâ”€â”€ lib/
-â”‚   â”œâ”€â”€ services/          # Data services (packages, destinations, vehicles, whatsapp)
-â”‚   â”œâ”€â”€ supabase/          # Supabase client
-â”‚   â””â”€â”€ cloudinary/        # Cloudinary uploads
-â”œâ”€â”€ hooks/                 # Custom hooks
-â””â”€â”€ types/                 # TypeScript types matching the DB schema
+├── app/
+│   ├── (main)/            # Public site (home, packages, destinations, blog, ...)
+│   ├── (admin)/           # Admin CMS (/admin: dashboard, CRUD, media, SEO, settings)
+│   └── api/               # REST API routes
+├── components/
+│   ├── ui/                # Reusable UI (shadcn)
+│   ├── shared/            # Navbar, footer, WhatsApp button, breadcrumbs
+│   ├── home/ packages/ destinations/ gallery/ blog/ reviews/ admin/
+├── lib/
+│   ├── services/          # Data services (packages, destinations, vehicles, whatsapp)
+│   ├── supabase/          # Supabase client
+│   └── cloudinary/        # Cloudinary uploads
+├── hooks/                 # Custom hooks
+└── types/                 # TypeScript types matching the DB schema
 ```
 
 ---
 
-## ðŸ“„ License
+## 📄 License
 
 This project is a private/commercial codebase. Contact the owner for usage terms.
 
 ---
 
-**Built with â¤ï¸ by [Aditya Raj Singh Sisodiya](https://github.com/adityarajsinghsisodiya000)**
+**Built with ❤️ by [Aditya Raj Singh Sisodiya](https://github.com/adityarajsinghsisodiya000)**
